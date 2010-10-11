@@ -1,0 +1,229 @@
+
+#smartreader-newItemsMessage a {
+    color: #000 !important;
+    font-weight: bold !important;
+}
+
+#smartreader-feeds-headerViewSwitcher {
+    float: none !important;
+    display: inline;
+}
+
+#smartreader-feeds-headerBottom,
+#smartreader-feeds-headerMaximize,
+#playermp3Container,
+#footer,
+#notification-box,
+#topLinks {
+    display: none !important;
+}
+
+#smartreader-feeds-header {
+    padding: 3px 0 0 !important;
+}
+
+#smartreader-mainTreeView,
+#smartreader-feeds-main {
+    border-width: 0 !important;
+}
+
+#smartreader-main {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.icon.entry-markasunread,
+.icon.entry-markasread {
+    background-position: 50% 50% !important;
+    margin-right: -8px;
+    margin-top: -8px;
+    padding: 8px;
+}
+
+#smartreader-feeds-markRead {
+    margin-left: 8px !important;
+}
+
+
+#smartreader-sidebar {
+    -webkit-box-shadow: black 10px 0px 20px -10px;
+    box-shadow: black 10px 0px 20px -10px;
+    -moz-box-shadow: black 10px 0px 20px -10px;
+    padding-left: 0px !important;
+    position: relative !important;
+}
+
+.quickDisplaySidebar #smartreader-sidebar {
+    position: absolute !important;
+}
+
+#smartreader-feeds-headerTop {
+    padding: 0px 10px 0px 20px;
+    border-width: 0 !important;
+}
+
+.header-button-set {
+    height: auto !important;
+}
+
+#smartreader-feeds-headerViewSwitcher .header-button.selected,
+#smartreader-feeds-headerViewSwitcher .header-button:hover {
+    border: 1px solid #7c7c7c !important;
+    border-radius: 3px !important;
+    -moz-border-radius: 3px !important;
+    background: -webkit-gradient(linear, 0% 0%, 0 100%, from(#747474), to(#535353)) !important;
+    background: -moz-linear-gradient(top, #747474, #535353) !important;
+}
+
+#smartreader-feeds-headerViewSwitcher .header-button {
+    margin-right: 5px;
+    border: 1px solid transparent !important;
+    line-height: 16px;
+    height: 16px;
+    margin-top: 3px;
+    width: 22px;
+    overflow: hidden;
+    padding: 0 2px;
+}
+
+#smartreader-feeds-headerViewSwitcher-list span {
+  background-position: -7px -317px !important;
+}
+#smartreader-feeds-headerViewSwitcher-expanded span {
+  background-position: -7px -344px !important;
+}
+#smartreader-feeds-headerViewSwitcher-mosaic span {
+  background-position: -7px -371px !important;
+}
+
+#application {
+    clear: both;
+}
+
+#top {
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 28px !important;
+    background-color: transparent !important;
+    z-index: 1000 !important;
+}
+
+#smartreader-feeds-markRead-a, #smartreader-feeds-markRead-a:hover {
+    background-image: url({{ image icons/mark-read.png }}) !important;
+}
+
+#smartreader-feeds-headerBottom-prev span {
+    background-image: url({{ image icons/previous.png }}) !important;
+}
+
+#smartreader-feeds-headerBottom-next span {
+    background-image: url({{ image icons/next.png }}) !important;
+}
+
+#display-all, #display-all:hover {
+    background-image: url({{ image icons/display-all.png }}) !important;
+}
+
+#display-unread, #display-unread:hover {
+    background-image: url({{ image icons/display-unread.png }}) !important;
+}
+
+#smartreader-feeds-header .header-button-set:hover {
+    background: url(http://cdn.netvibes.com/themes/base/img/smartreader/grey-hover.png?v=456) repeat scroll 0 0 transparent;
+}
+
+#smartreader-feeds-headerBottom-prevNext:hover {
+    background-image: url(http://cdn.netvibes.com/themes/base/img/smartreader/grey.png?v=456) !important;
+}
+
+#smartreader-feeds-headerBottom-prevNext a:hover {
+    background: url(http://cdn.netvibes.com/themes/base/img/smartreader/grey-hover.png?v=456) repeat scroll 0 0 transparent;
+}
+
+
+
+#display-all,
+#display-unread,
+#smartreader-feeds-markRead-a,
+#smartreader-feeds-header .header-button span {
+    height: 22px;
+    width: 22px;
+    font-size: 0;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    display: block;
+    /*padding: 0 !important;*/
+}
+
+#smartreader-feeds-headerBottom-prevNext a {
+    padding: 0 !important;
+}
+
+#topbar-button {
+    background-image: url( {{ image icons/out.png }});
+    position: relative;
+    margin: 0px 0px 0px auto;
+    top: 22px;
+    width: 26px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+#topbar-button.out {
+    background-image: url( {{ image icons/out.png }});
+    height: 16px;
+}
+#topbar-button.in {
+    background-image: url( {{ image icons/in.png }});
+    height: 10px;
+}
+
+#smartreader-feeds-markRead .separator {
+  display: none !important;
+}
+
+#tabsToggler {
+    width: 10px;
+    height: 31px;
+    line-height: 31px;
+    position: absolute;
+    left: 0;
+    font-weight: bold;
+    font-size: 0.8em;
+    text-align: center;
+    cursor: pointer;
+}
+
+#columns {
+    padding-top: 0 !important;
+}
+
+#savingStatus {
+    position: absolute;
+}
+
+#divTabs {
+    left: 0;
+    right: 0;
+}
+
+.module {
+    margin: 10px 3px;
+}
+
+#smartreader-feeds-inner {
+    padding: 0 !important;
+}
+
+.websiteview .entry-body {
+    border-style: none !important;
+}
+
+/*#directView {
+    margin-bottom: -3px !important;
+}
+
+.entry-podcastInner {
+    padding: 3px 0 3px 26px !important;
+}*/
