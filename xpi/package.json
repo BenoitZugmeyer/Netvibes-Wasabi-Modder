@@ -4,7 +4,7 @@
     "dependencies": [
         "jetpack-core"
     ], 
-    "version": "1.5.2", 
+    "version": "1.5.3", 
     "fullName": "Netvibes Wasabi modder", 
     "id": "jid0-NlOCMbeiIYjaTBD3AF8hTc54MN4", 
     "description": "Changes styles of Netvibes to make it prettier and more accessible."
