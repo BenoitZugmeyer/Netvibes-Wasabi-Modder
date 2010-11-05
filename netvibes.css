@@ -50,11 +50,14 @@
     box-shadow: black 10px 0px 20px -10px;
     -moz-box-shadow: black 10px 0px 20px -10px;
     padding-left: 0px !important;
-    position: relative !important;
 }
 
-.quickDisplaySidebar #smartreader-sidebar {
-    position: absolute !important;
+#smartreader-mainContainer {
+    margin-left: 248px !important;
+}
+
+.hideSidebarLeft #smartreader-mainContainer {
+    margin-left: 0 !important;
 }
 
 #smartreader-feeds-headerTop {
